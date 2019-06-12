@@ -1,0 +1,822 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+10	lapack.f	/^   10             CONTINUE$/;"	l	subroutine:DGGEV	file:
+10	lapack.f	/^   10       CONTINUE$/;"	l	subroutine:DGETRF	file:
+10	lapack.f	/^   10       CONTINUE$/;"	l	subroutine:DGETRI	file:
+10	lapack_tools.f	/^   10                     CONTINUE$/;"	l	subroutine:DTRMV	file:
+10	lapack_tools.f	/^   10                     CONTINUE$/;"	l	subroutine:DTRSV	file:
+10	lapack_tools.f	/^   10                 CONTINUE$/;"	l	subroutine:DSYR2	file:
+10	lapack_tools.f	/^   10                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+10	lapack_tools.f	/^   10                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+10	lapack_tools.f	/^   10                CONTINUE$/;"	l	subroutine:DLASR	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DGEMM	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DGEMV	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DGER	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DLASWP	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DSYMM	file:
+10	lapack_tools.f	/^   10             CONTINUE$/;"	l	subroutine:DSYMV	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	function:DLANSY	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	subroutine:DGETRF2	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	subroutine:DLARFB	file:
+10	lapack_tools.f	/^   10          CONTINUE$/;"	l	subroutine:DSYGST	file:
+10	lapack_tools.f	/^   10         CONTINUE$/;"	l	subroutine:DTRMM	file:
+10	lapack_tools.f	/^   10         CONTINUE$/;"	l	subroutine:DTRSM	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	function:DLANGE	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	function:DLANHS	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLACPY	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLAGTS	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLALN2	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLARFG	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLARNV	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLARTG	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DLASET	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DORGQL	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DORGQR	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DORGTR	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DPOTRF	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DSYEVX	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DSYGS2	file:
+10	lapack_tools.f	/^   10       CONTINUE$/;"	l	subroutine:DSYTRD	file:
+10	lapack_tools.f	/^   10     CONTINUE$/;"	l	function:DNRM2	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	function:DLANST	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DGEQRF	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DGGHRD	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DLASSQ	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DLATRD	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DORG2L	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DORG2R	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DORMQL	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DORMQR	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DPOTF2	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DSYTD2	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DTGEVC	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DTRTI2	file:
+10	lapack_tools.f	/^   10    CONTINUE$/;"	l	subroutine:DTRTRI	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	function:ILAENV	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DGEQR2	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DLAGTF	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DLARUV	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DLASCL	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DLASRT	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DORM2L	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DORM2R	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DSTEIN	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+10	lapack_tools.f	/^   10 CONTINUE$/;"	l	subroutine:DSTERF	file:
+100	lapack.f	/^  100       CONTINUE$/;"	l	subroutine:DGGEV	file:
+100	lapack_tools.f	/^  100                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+100	lapack_tools.f	/^  100                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+100	lapack_tools.f	/^  100                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+100	lapack_tools.f	/^  100                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+100	lapack_tools.f	/^  100                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+100	lapack_tools.f	/^  100             CONTINUE$/;"	l	subroutine:DTRMV	file:
+100	lapack_tools.f	/^  100             CONTINUE$/;"	l	subroutine:DTRSM	file:
+100	lapack_tools.f	/^  100             CONTINUE$/;"	l	subroutine:DTRSV	file:
+100	lapack_tools.f	/^  100          CONTINUE$/;"	l	function:IPARAM2STAGE	file:
+100	lapack_tools.f	/^  100          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+100	lapack_tools.f	/^  100          CONTINUE$/;"	l	subroutine:DLARFB	file:
+100	lapack_tools.f	/^  100          CONTINUE$/;"	l	subroutine:DLASR	file:
+100	lapack_tools.f	/^  100          CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+100	lapack_tools.f	/^  100         CONTINUE$/;"	l	subroutine:DGEMV	file:
+100	lapack_tools.f	/^  100         CONTINUE$/;"	l	subroutine:DSYMM	file:
+100	lapack_tools.f	/^  100         CONTINUE$/;"	l	subroutine:DSYMV	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	function:DLANSY	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DLASCL	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DLASRT	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+100	lapack_tools.f	/^  100       CONTINUE$/;"	l	subroutine:DSTEQR	file:
+100	lapack_tools.f	/^  100    CONTINUE$/;"	l	subroutine:DSTERF	file:
+100	lapack_tools.f	/^  100 CONTINUE$/;"	l	function:ILAENV	file:
+100	lapack_tools.f	/^  100 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+110	lapack.f	/^  110 CONTINUE$/;"	l	subroutine:DGGEV	file:
+110	lapack_tools.f	/^  110                     CONTINUE$/;"	l	subroutine:DSYR2K	file:
+110	lapack_tools.f	/^  110                     CONTINUE$/;"	l	subroutine:DSYRK	file:
+110	lapack_tools.f	/^  110                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+110	lapack_tools.f	/^  110                 CONTINUE$/;"	l	subroutine:DTRMV	file:
+110	lapack_tools.f	/^  110                 CONTINUE$/;"	l	subroutine:DTRSV	file:
+110	lapack_tools.f	/^  110                CONTINUE$/;"	l	subroutine:DLASR	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DGEMM	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DGEMV	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DLARFB	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DSYMM	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DSYMV	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+110	lapack_tools.f	/^  110             CONTINUE$/;"	l	subroutine:DTRMM	file:
+110	lapack_tools.f	/^  110          CONTINUE$/;"	l	function:IPARAM2STAGE	file:
+110	lapack_tools.f	/^  110       CONTINUE$/;"	l	function:DLANSY	file:
+110	lapack_tools.f	/^  110       CONTINUE$/;"	l	subroutine:DLASRT	file:
+110	lapack_tools.f	/^  110       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DLASCL	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+110	lapack_tools.f	/^  110    CONTINUE$/;"	l	subroutine:DSTERF	file:
+110	lapack_tools.f	/^  110 CONTINUE$/;"	l	function:ILAENV	file:
+110	lapack_tools.f	/^  110 CONTINUE$/;"	l	subroutine:DGGBAK	file:
+120	lapack_tools.f	/^  120                     CONTINUE$/;"	l	subroutine:DTRMM	file:
+120	lapack_tools.f	/^  120                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+120	lapack_tools.f	/^  120             CONTINUE$/;"	l	subroutine:DSYMM	file:
+120	lapack_tools.f	/^  120             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+120	lapack_tools.f	/^  120             CONTINUE$/;"	l	subroutine:DSYRK	file:
+120	lapack_tools.f	/^  120             CONTINUE$/;"	l	subroutine:DTRMV	file:
+120	lapack_tools.f	/^  120             CONTINUE$/;"	l	subroutine:DTRSV	file:
+120	lapack_tools.f	/^  120          CONTINUE$/;"	l	function:IPARAM2STAGE	file:
+120	lapack_tools.f	/^  120          CONTINUE$/;"	l	subroutine:DLARFB	file:
+120	lapack_tools.f	/^  120          CONTINUE$/;"	l	subroutine:DLASR	file:
+120	lapack_tools.f	/^  120          CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+120	lapack_tools.f	/^  120          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+120	lapack_tools.f	/^  120         CONTINUE$/;"	l	subroutine:DGEMM	file:
+120	lapack_tools.f	/^  120         CONTINUE$/;"	l	subroutine:DGEMV	file:
+120	lapack_tools.f	/^  120         CONTINUE$/;"	l	subroutine:DSYMV	file:
+120	lapack_tools.f	/^  120       CONTINUE$/;"	l	function:DLANSY	file:
+120	lapack_tools.f	/^  120       CONTINUE$/;"	l	subroutine:DLASCL	file:
+120	lapack_tools.f	/^  120       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+120	lapack_tools.f	/^  120    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+120	lapack_tools.f	/^  120    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+120	lapack_tools.f	/^  120    CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+120	lapack_tools.f	/^  120    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+120	lapack_tools.f	/^  120    CONTINUE$/;"	l	subroutine:DSTERF	file:
+120	lapack_tools.f	/^  120 CONTINUE$/;"	l	function:ILAENV	file:
+130	lapack_tools.f	/^  130                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+130	lapack_tools.f	/^  130                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+130	lapack_tools.f	/^  130                 CONTINUE$/;"	l	subroutine:DTRMV	file:
+130	lapack_tools.f	/^  130                 CONTINUE$/;"	l	subroutine:DTRSV	file:
+130	lapack_tools.f	/^  130                CONTINUE$/;"	l	subroutine:DLASR	file:
+130	lapack_tools.f	/^  130             CONTINUE$/;"	l	subroutine:DSYMM	file:
+130	lapack_tools.f	/^  130             CONTINUE$/;"	l	subroutine:DTRSM	file:
+130	lapack_tools.f	/^  130          CONTINUE$/;"	l	subroutine:DLARFB	file:
+130	lapack_tools.f	/^  130          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+130	lapack_tools.f	/^  130         CONTINUE$/;"	l	subroutine:DSYR2K	file:
+130	lapack_tools.f	/^  130         CONTINUE$/;"	l	subroutine:DSYRK	file:
+130	lapack_tools.f	/^  130       CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+130	lapack_tools.f	/^  130       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+130	lapack_tools.f	/^  130    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+130	lapack_tools.f	/^  130    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+130	lapack_tools.f	/^  130    CONTINUE$/;"	l	subroutine:DLASCL	file:
+130	lapack_tools.f	/^  130    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+130	lapack_tools.f	/^  130    CONTINUE$/;"	l	subroutine:DSTERF	file:
+130	lapack_tools.f	/^  130 CONTINUE$/;"	l	function:ILAENV	file:
+130	lapack_tools.f	/^  130 CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+140	lapack_tools.f	/^  140                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+140	lapack_tools.f	/^  140                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+140	lapack_tools.f	/^  140                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+140	lapack_tools.f	/^  140                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+140	lapack_tools.f	/^  140                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+140	lapack_tools.f	/^  140             CONTINUE$/;"	l	subroutine:DLARFB	file:
+140	lapack_tools.f	/^  140             CONTINUE$/;"	l	subroutine:DTRMM	file:
+140	lapack_tools.f	/^  140             CONTINUE$/;"	l	subroutine:DTRMV	file:
+140	lapack_tools.f	/^  140             CONTINUE$/;"	l	subroutine:DTRSV	file:
+140	lapack_tools.f	/^  140          CONTINUE$/;"	l	subroutine:DLASR	file:
+140	lapack_tools.f	/^  140         CONTINUE$/;"	l	subroutine:DSYMM	file:
+140	lapack_tools.f	/^  140       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+140	lapack_tools.f	/^  140       CONTINUE$/;"	l	subroutine:DLASCL	file:
+140	lapack_tools.f	/^  140       CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+140	lapack_tools.f	/^  140       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+140	lapack_tools.f	/^  140    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+140	lapack_tools.f	/^  140    CONTINUE$/;"	l	subroutine:DSTERF	file:
+140	lapack_tools.f	/^  140 CONTINUE$/;"	l	function:ILAENV	file:
+140	lapack_tools.f	/^  140 CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+140	lapack_tools.f	/^  140 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DTRMV	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+150	lapack_tools.f	/^  150                 CONTINUE$/;"	l	subroutine:DTRSV	file:
+150	lapack_tools.f	/^  150                CONTINUE$/;"	l	subroutine:DLASR	file:
+150	lapack_tools.f	/^  150             CONTINUE$/;"	l	subroutine:DSYMM	file:
+150	lapack_tools.f	/^  150             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+150	lapack_tools.f	/^  150          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+150	lapack_tools.f	/^  150          CONTINUE$/;"	l	subroutine:DLARFB	file:
+150	lapack_tools.f	/^  150    CONTINUE$/;"	l	subroutine:DLASCL	file:
+150	lapack_tools.f	/^  150    CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+150	lapack_tools.f	/^  150    CONTINUE$/;"	l	subroutine:DSTEIN	file:
+150	lapack_tools.f	/^  150 CONTINUE$/;"	l	function:ILAENV	file:
+150	lapack_tools.f	/^  150 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+150	lapack_tools.f	/^  150 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+150	lapack_tools.f	/^  150 CONTINUE$/;"	l	subroutine:DSTERF	file:
+160	lapack_tools.f	/^  160                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+160	lapack_tools.f	/^  160                     CONTINUE$/;"	l	subroutine:DSYR2K	file:
+160	lapack_tools.f	/^  160                     CONTINUE$/;"	l	subroutine:DSYRK	file:
+160	lapack_tools.f	/^  160             CONTINUE$/;"	l	subroutine:DGEMM	file:
+160	lapack_tools.f	/^  160             CONTINUE$/;"	l	subroutine:DTRMV	file:
+160	lapack_tools.f	/^  160             CONTINUE$/;"	l	subroutine:DTRSM	file:
+160	lapack_tools.f	/^  160             CONTINUE$/;"	l	subroutine:DTRSV	file:
+160	lapack_tools.f	/^  160          CONTINUE$/;"	l	subroutine:DLARFB	file:
+160	lapack_tools.f	/^  160          CONTINUE$/;"	l	subroutine:DLASR	file:
+160	lapack_tools.f	/^  160         CONTINUE$/;"	l	subroutine:DSYMM	file:
+160	lapack_tools.f	/^  160       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+160	lapack_tools.f	/^  160       CONTINUE$/;"	l	subroutine:DTGEVC	file:
+160	lapack_tools.f	/^  160 CONTINUE$/;"	l	function:ILAENV	file:
+160	lapack_tools.f	/^  160 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+160	lapack_tools.f	/^  160 CONTINUE$/;"	l	subroutine:DSTEIN	file:
+160	lapack_tools.f	/^  160 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+160	lapack_tools.f	/^  160 CONTINUE$/;"	l	subroutine:DSTERF	file:
+170	lapack_tools.f	/^  170                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+170	lapack_tools.f	/^  170                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+170	lapack_tools.f	/^  170                CONTINUE$/;"	l	subroutine:DLASR	file:
+170	lapack_tools.f	/^  170             CONTINUE$/;"	l	subroutine:DLARFB	file:
+170	lapack_tools.f	/^  170             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+170	lapack_tools.f	/^  170             CONTINUE$/;"	l	subroutine:DSYRK	file:
+170	lapack_tools.f	/^  170          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+170	lapack_tools.f	/^  170         CONTINUE$/;"	l	subroutine:DGEMM	file:
+170	lapack_tools.f	/^  170       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+170	lapack_tools.f	/^  170       CONTINUE$/;"	l	subroutine:DSTEQR	file:
+170	lapack_tools.f	/^  170     CONTINUE$/;"	l	subroutine:DSYMM	file:
+170	lapack_tools.f	/^  170 CONTINUE$/;"	l	function:ILAENV	file:
+170	lapack_tools.f	/^  170 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+170	lapack_tools.f	/^  170 CONTINUE$/;"	l	subroutine:DSTERF	file:
+180	lapack_tools.f	/^  180                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+180	lapack_tools.f	/^  180                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+180	lapack_tools.f	/^  180             CONTINUE$/;"	l	subroutine:DTRMM	file:
+180	lapack_tools.f	/^  180          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+180	lapack_tools.f	/^  180          CONTINUE$/;"	l	subroutine:DLARFB	file:
+180	lapack_tools.f	/^  180          CONTINUE$/;"	l	subroutine:DLASR	file:
+180	lapack_tools.f	/^  180          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+180	lapack_tools.f	/^  180         CONTINUE$/;"	l	subroutine:DSYR2K	file:
+180	lapack_tools.f	/^  180         CONTINUE$/;"	l	subroutine:DSYRK	file:
+180	lapack_tools.f	/^  180    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+180	lapack_tools.f	/^  180 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+180	lapack_tools.f	/^  180 CONTINUE$/;"	l	subroutine:DSTERF	file:
+190	lapack_tools.f	/^  190                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+190	lapack_tools.f	/^  190                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+190	lapack_tools.f	/^  190                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+190	lapack_tools.f	/^  190                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+190	lapack_tools.f	/^  190                CONTINUE$/;"	l	subroutine:DLASR	file:
+190	lapack_tools.f	/^  190             CONTINUE$/;"	l	subroutine:DGEMM	file:
+190	lapack_tools.f	/^  190          CONTINUE$/;"	l	subroutine:DLARFB	file:
+190	lapack_tools.f	/^  190          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+190	lapack_tools.f	/^  190    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+190	lapack_tools.f	/^  190 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+190	lapack_tools.f	/^  190 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+195	lapack_tools.f	/^  195    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+20	lapack.f	/^   20             CONTINUE$/;"	l	subroutine:DGGEV	file:
+20	lapack.f	/^   20    CONTINUE$/;"	l	subroutine:DGETRF	file:
+20	lapack.f	/^   20    CONTINUE$/;"	l	subroutine:DGETRI	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DGEMV	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DLARFB	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DSYMV	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DSYRK	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DTRMV	file:
+20	lapack_tools.f	/^   20             CONTINUE$/;"	l	subroutine:DTRSV	file:
+20	lapack_tools.f	/^   20          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+20	lapack_tools.f	/^   20          CONTINUE$/;"	l	subroutine:DLASR	file:
+20	lapack_tools.f	/^   20          CONTINUE$/;"	l	subroutine:DLASRT	file:
+20	lapack_tools.f	/^   20          CONTINUE$/;"	l	subroutine:DSYGST	file:
+20	lapack_tools.f	/^   20         CONTINUE$/;"	l	subroutine:DGEMM	file:
+20	lapack_tools.f	/^   20         CONTINUE$/;"	l	subroutine:DSYMM	file:
+20	lapack_tools.f	/^   20         CONTINUE$/;"	l	subroutine:DSYR2	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	function:DLANST	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	function:DLANSY	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	function:ILAENV	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLALN2	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLARNV	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLARTG	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLASCL	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DLASWP	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DPOTRF	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DSYEVX	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DSYGS2	file:
+20	lapack_tools.f	/^   20       CONTINUE$/;"	l	subroutine:DTRTRI	file:
+20	lapack_tools.f	/^   20     CONTINUE$/;"	l	subroutine:DGER	file:
+20	lapack_tools.f	/^   20     CONTINUE$/;"	l	subroutine:DTRMM	file:
+20	lapack_tools.f	/^   20     CONTINUE$/;"	l	subroutine:DTRSM	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	function:DLANGE	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	function:DLANHS	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DGETRF2	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DLACPY	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DLAGTS	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DLASET	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DLATRD	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DORGQL	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DORGQR	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DORGTR	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DPOTF2	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DSTEIN	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DSYTD2	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DSYTRD	file:
+20	lapack_tools.f	/^   20    CONTINUE$/;"	l	subroutine:DTRTI2	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DGGHRD	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DORG2L	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DORG2R	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DSTERF	file:
+20	lapack_tools.f	/^   20 CONTINUE$/;"	l	subroutine:DTGEVC	file:
+20	lapack_tools.f	/^  20     CONTINUE$/;"	l	subroutine:DLARUV	file:
+20	lapack_tools.f	/^ 20      CONTINUE$/;"	l	subroutine:DLARFG	file:
+200	lapack_tools.f	/^  200                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+200	lapack_tools.f	/^  200                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+200	lapack_tools.f	/^  200             CONTINUE$/;"	l	subroutine:DLARFB	file:
+200	lapack_tools.f	/^  200             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+200	lapack_tools.f	/^  200             CONTINUE$/;"	l	subroutine:DSYRK	file:
+200	lapack_tools.f	/^  200             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+200	lapack_tools.f	/^  200          CONTINUE$/;"	l	subroutine:DLASR	file:
+200	lapack_tools.f	/^  200         CONTINUE$/;"	l	subroutine:DGEMM	file:
+200	lapack_tools.f	/^  200    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+200	lapack_tools.f	/^  200 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+210	lapack_tools.f	/^  210                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+210	lapack_tools.f	/^  210                CONTINUE$/;"	l	subroutine:DLASR	file:
+210	lapack_tools.f	/^  210             CONTINUE$/;"	l	subroutine:DTRSM	file:
+210	lapack_tools.f	/^  210          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+210	lapack_tools.f	/^  210          CONTINUE$/;"	l	subroutine:DLARFB	file:
+210	lapack_tools.f	/^  210          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+210	lapack_tools.f	/^  210         CONTINUE$/;"	l	subroutine:DSYR2K	file:
+210	lapack_tools.f	/^  210         CONTINUE$/;"	l	subroutine:DSYRK	file:
+210	lapack_tools.f	/^  210       CONTINUE$/;"	l	subroutine:DGGBAL	file:
+220	lapack_tools.f	/^  220                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+220	lapack_tools.f	/^  220                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+220	lapack_tools.f	/^  220                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+220	lapack_tools.f	/^  220             CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+220	lapack_tools.f	/^  220             CONTINUE$/;"	l	subroutine:DTRMM	file:
+220	lapack_tools.f	/^  220          CONTINUE$/;"	l	subroutine:DLARFB	file:
+220	lapack_tools.f	/^  220          CONTINUE$/;"	l	subroutine:DLASR	file:
+220	lapack_tools.f	/^  220       CONTINUE$/;"	l	subroutine:DGGBAL	file:
+220	lapack_tools.f	/^  220    CONTINUE$/;"	l	subroutine:DTGEVC	file:
+230	lapack_tools.f	/^  230                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+230	lapack_tools.f	/^  230                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+230	lapack_tools.f	/^  230                CONTINUE$/;"	l	subroutine:DLASR	file:
+230	lapack_tools.f	/^  230             CONTINUE$/;"	l	subroutine:DLARFB	file:
+230	lapack_tools.f	/^  230             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+230	lapack_tools.f	/^  230             CONTINUE$/;"	l	subroutine:DSYRK	file:
+230	lapack_tools.f	/^  230             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+230	lapack_tools.f	/^  230          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+230	lapack_tools.f	/^  230    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+240	lapack_tools.f	/^  240                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+240	lapack_tools.f	/^  240                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+240	lapack_tools.f	/^  240             CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+240	lapack_tools.f	/^  240          CONTINUE$/;"	l	subroutine:DLARFB	file:
+240	lapack_tools.f	/^  240          CONTINUE$/;"	l	subroutine:DLASR	file:
+240	lapack_tools.f	/^  240          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+240	lapack_tools.f	/^  240         CONTINUE$/;"	l	subroutine:DSYR2K	file:
+240	lapack_tools.f	/^  240         CONTINUE$/;"	l	subroutine:DSYRK	file:
+240	lapack_tools.f	/^  240 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+250	lapack_tools.f	/^  250                     CONTINUE$/;"	l	subroutine:DTRMM	file:
+250	lapack_tools.f	/^  250                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+250	lapack_tools.f	/^  250          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+250	lapack_tools.f	/^  250       CONTINUE$/;"	l	subroutine:DTGEVC	file:
+250	lapack_tools.f	/^  250 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+260	lapack_tools.f	/^  260             CONTINUE$/;"	l	subroutine:DTRMM	file:
+260	lapack_tools.f	/^  260             CONTINUE$/;"	l	subroutine:DTRSM	file:
+260	lapack_tools.f	/^  260          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+260	lapack_tools.f	/^  260          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+260	lapack_tools.f	/^  260 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+270	lapack_tools.f	/^  270                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+270	lapack_tools.f	/^  270                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+270	lapack_tools.f	/^  270          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+270	lapack_tools.f	/^  270          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+270	lapack_tools.f	/^  270 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+280	lapack_tools.f	/^  280                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+280	lapack_tools.f	/^  280                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+280	lapack_tools.f	/^  280                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+280	lapack_tools.f	/^  280             CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+280	lapack_tools.f	/^  280       CONTINUE$/;"	l	subroutine:DGGBAL	file:
+290	lapack_tools.f	/^  290                     CONTINUE$/;"	l	subroutine:DTRMM	file:
+290	lapack_tools.f	/^  290                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+290	lapack_tools.f	/^  290             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+290	lapack_tools.f	/^  290       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+290	lapack_tools.f	/^  290    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+30	lapack.f	/^   30             CONTINUE$/;"	l	subroutine:DGGEV	file:
+30	lapack.f	/^   30          CONTINUE$/;"	l	subroutine:DGETRI	file:
+30	lapack_tools.f	/^   30                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+30	lapack_tools.f	/^   30                     CONTINUE$/;"	l	subroutine:DTRMV	file:
+30	lapack_tools.f	/^   30                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+30	lapack_tools.f	/^   30                     CONTINUE$/;"	l	subroutine:DTRSV	file:
+30	lapack_tools.f	/^   30                 CONTINUE$/;"	l	subroutine:DSYR2	file:
+30	lapack_tools.f	/^   30                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+30	lapack_tools.f	/^   30                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+30	lapack_tools.f	/^   30                CONTINUE$/;"	l	subroutine:DLASR	file:
+30	lapack_tools.f	/^   30             CONTINUE$/;"	l	subroutine:DGEMM	file:
+30	lapack_tools.f	/^   30             CONTINUE$/;"	l	subroutine:DGEMV	file:
+30	lapack_tools.f	/^   30             CONTINUE$/;"	l	subroutine:DGER	file:
+30	lapack_tools.f	/^   30             CONTINUE$/;"	l	subroutine:DSYMM	file:
+30	lapack_tools.f	/^   30             CONTINUE$/;"	l	subroutine:DSYMV	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	function:DLANSY	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	subroutine:DLARFB	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	subroutine:DORGQL	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	subroutine:DORGQR	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	subroutine:DSYEVX	file:
+30	lapack_tools.f	/^   30          CONTINUE$/;"	l	subroutine:DSYGST	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	function:DLANGE	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	function:DLANHS	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	function:ILAENV	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLACPY	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLAGTS	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLARNV	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLARTG	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLASET	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DLASRT	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DSYGS2	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DSYTRD	file:
+30	lapack_tools.f	/^   30       CONTINUE$/;"	l	subroutine:DTRTRI	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DGGHRD	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DLASCL	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DLASWP	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DORG2L	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DORG2R	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DORGTR	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DSTEIN	file:
+30	lapack_tools.f	/^   30    CONTINUE$/;"	l	subroutine:DTGEVC	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DGGBAK	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DPOTF2	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DPOTRF	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DSTEQR	file:
+30	lapack_tools.f	/^   30 CONTINUE$/;"	l	subroutine:DSTERF	file:
+300	lapack_tools.f	/^  300                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+300	lapack_tools.f	/^  300             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+300	lapack_tools.f	/^  300             CONTINUE$/;"	l	subroutine:DTRMM	file:
+300	lapack_tools.f	/^  300       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+300	lapack_tools.f	/^  300 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+310	lapack_tools.f	/^  310             CONTINUE$/;"	l	subroutine:DTRSM	file:
+310	lapack_tools.f	/^  310          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+310	lapack_tools.f	/^  310          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+310	lapack_tools.f	/^  310       CONTINUE$/;"	l	subroutine:DGGBAL	file:
+320	lapack_tools.f	/^  320                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+320	lapack_tools.f	/^  320                   CONTINUE$/;"	l	subroutine:DTGEVC	file:
+320	lapack_tools.f	/^  320       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+320	lapack_tools.f	/^  320    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+330	lapack_tools.f	/^  330                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+330	lapack_tools.f	/^  330                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+330	lapack_tools.f	/^  330       CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+330	lapack_tools.f	/^  330 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+340	lapack_tools.f	/^  340                   CONTINUE$/;"	l	subroutine:DTGEVC	file:
+340	lapack_tools.f	/^  340                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+340	lapack_tools.f	/^  340          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+340	lapack_tools.f	/^  340 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+350	lapack_tools.f	/^  350                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+350	lapack_tools.f	/^  350                   CONTINUE$/;"	l	subroutine:DTGEVC	file:
+350	lapack_tools.f	/^  350    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+350	lapack_tools.f	/^  350 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+360	lapack_tools.f	/^  360             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+360	lapack_tools.f	/^  360             CONTINUE$/;"	l	subroutine:DTRSM	file:
+360	lapack_tools.f	/^  360 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+360	lapack_tools.f	/^  360 CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+370	lapack_tools.f	/^  370       CONTINUE$/;"	l	subroutine:DTGEVC	file:
+370	lapack_tools.f	/^  370 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+380	lapack_tools.f	/^  380             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+380	lapack_tools.f	/^  380 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+380	lapack_tools.f	/^  380 CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+390	lapack_tools.f	/^  390                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+390	lapack_tools.f	/^  390          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+40	lapack.f	/^   40             CONTINUE$/;"	l	subroutine:DGGEV	file:
+40	lapack.f	/^   40       CONTINUE$/;"	l	subroutine:DGETRI	file:
+40	lapack_tools.f	/^   40                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+40	lapack_tools.f	/^   40                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DGEMV	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DSYMV	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DSYRK	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DTRMV	file:
+40	lapack_tools.f	/^   40             CONTINUE$/;"	l	subroutine:DTRSV	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DLAGTS	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DLARFB	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DLASR	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DLASRT	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DLASWP	file:
+40	lapack_tools.f	/^   40          CONTINUE$/;"	l	subroutine:DSYGST	file:
+40	lapack_tools.f	/^   40         CONTINUE$/;"	l	subroutine:DGEMM	file:
+40	lapack_tools.f	/^   40         CONTINUE$/;"	l	subroutine:DSYMM	file:
+40	lapack_tools.f	/^   40         CONTINUE$/;"	l	subroutine:DSYR2	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	function:DLANSY	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	function:ILAENV	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DLARTG	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DLASCL	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DORGQL	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DORGQR	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DORGTR	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+40	lapack_tools.f	/^   40       CONTINUE$/;"	l	subroutine:DSYGS2	file:
+40	lapack_tools.f	/^   40     CONTINUE$/;"	l	subroutine:DGER	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	function:DLANGE	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	function:DLANHS	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DLACPY	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DLASET	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DSYTRD	file:
+40	lapack_tools.f	/^   40    CONTINUE$/;"	l	subroutine:DTGEVC	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DGGHRD	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DLARNV	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DORG2L	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DORG2R	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DPOTF2	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DPOTRF	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DSTEIN	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DSTERF	file:
+40	lapack_tools.f	/^   40 CONTINUE$/;"	l	subroutine:DSYEVX	file:
+400	lapack_tools.f	/^  400             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+400	lapack_tools.f	/^  400          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+410	lapack_tools.f	/^  410          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+410	lapack_tools.f	/^  410 CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+420	lapack_tools.f	/^  420             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+420	lapack_tools.f	/^  420 CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+430	lapack_tools.f	/^  430          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+440	lapack_tools.f	/^  440             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+450	lapack_tools.f	/^  450          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+460	lapack_tools.f	/^  460          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+470	lapack_tools.f	/^  470          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+480	lapack_tools.f	/^  480             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+490	lapack_tools.f	/^  490          CONTINUE$/;"	l	subroutine:DTGEVC	file:
+50	lapack.f	/^   50       CONTINUE$/;"	l	subroutine:DGGEV	file:
+50	lapack.f	/^   50    CONTINUE$/;"	l	subroutine:DGETRI	file:
+50	lapack_tools.f	/^   50                     CONTINUE$/;"	l	subroutine:DTRMV	file:
+50	lapack_tools.f	/^   50                     CONTINUE$/;"	l	subroutine:DTRSV	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DSYMM	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DSYR2	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+50	lapack_tools.f	/^   50                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+50	lapack_tools.f	/^   50                CONTINUE$/;"	l	subroutine:DLASR	file:
+50	lapack_tools.f	/^   50             CONTINUE$/;"	l	subroutine:DGEMV	file:
+50	lapack_tools.f	/^   50             CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+50	lapack_tools.f	/^   50             CONTINUE$/;"	l	subroutine:DLARFB	file:
+50	lapack_tools.f	/^   50             CONTINUE$/;"	l	subroutine:DSYMV	file:
+50	lapack_tools.f	/^   50             CONTINUE$/;"	l	subroutine:DTRMM	file:
+50	lapack_tools.f	/^   50          CONTINUE$/;"	l	function:DLANSY	file:
+50	lapack_tools.f	/^   50          CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+50	lapack_tools.f	/^   50          CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DLACPY	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DLAGTS	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DLASET	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DLASRT	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DSTEQR	file:
+50	lapack_tools.f	/^   50       CONTINUE$/;"	l	subroutine:DSYEVX	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	function:DLANGE	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	function:DLANHS	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DLASCL	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DLASWP	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DORGQL	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DORGQR	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DORGTR	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DSTEIN	file:
+50	lapack_tools.f	/^   50    CONTINUE$/;"	l	subroutine:DSTERF	file:
+50	lapack_tools.f	/^   50 CONTINUE$/;"	l	function:ILAENV	file:
+50	lapack_tools.f	/^   50 CONTINUE$/;"	l	subroutine:DTGEVC	file:
+500	lapack_tools.f	/^  500    CONTINUE$/;"	l	subroutine:DTGEVC	file:
+60	lapack.f	/^   60             CONTINUE$/;"	l	subroutine:DGGEV	file:
+60	lapack.f	/^   60 CONTINUE$/;"	l	subroutine:DGETRI	file:
+60	lapack_tools.f	/^   60                         CONTINUE$/;"	l	subroutine:DTRMM	file:
+60	lapack_tools.f	/^   60                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DSYMM	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DSYRK	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DTRMV	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DTRSM	file:
+60	lapack_tools.f	/^   60             CONTINUE$/;"	l	subroutine:DTRSV	file:
+60	lapack_tools.f	/^   60          CONTINUE$/;"	l	subroutine:DLARFB	file:
+60	lapack_tools.f	/^   60          CONTINUE$/;"	l	subroutine:DLASR	file:
+60	lapack_tools.f	/^   60         CONTINUE$/;"	l	subroutine:DGEMV	file:
+60	lapack_tools.f	/^   60         CONTINUE$/;"	l	subroutine:DSYMV	file:
+60	lapack_tools.f	/^   60         CONTINUE$/;"	l	subroutine:DSYR2	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	function:DLANGE	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	function:DLANHS	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	function:DLANSY	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DLAGTS	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DLASCL	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DLASRT	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+60	lapack_tools.f	/^   60       CONTINUE$/;"	l	subroutine:DSTERF	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DLACPY	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DLASET	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DORGTR	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DSTEIN	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+60	lapack_tools.f	/^   60    CONTINUE$/;"	l	subroutine:DSYEVX	file:
+60	lapack_tools.f	/^   60 CONTINUE$/;"	l	function:ILAENV	file:
+70	lapack.f	/^   70             CONTINUE$/;"	l	subroutine:DGGEV	file:
+70	lapack_tools.f	/^   70                     CONTINUE$/;"	l	subroutine:DTRMV	file:
+70	lapack_tools.f	/^   70                     CONTINUE$/;"	l	subroutine:DTRSM	file:
+70	lapack_tools.f	/^   70                     CONTINUE$/;"	l	subroutine:DTRSV	file:
+70	lapack_tools.f	/^   70                 CONTINUE$/;"	l	subroutine:DGEMM	file:
+70	lapack_tools.f	/^   70                 CONTINUE$/;"	l	subroutine:DSYR2	file:
+70	lapack_tools.f	/^   70                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+70	lapack_tools.f	/^   70                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+70	lapack_tools.f	/^   70                 CONTINUE$/;"	l	subroutine:DTRMM	file:
+70	lapack_tools.f	/^   70                CONTINUE$/;"	l	subroutine:DLASR	file:
+70	lapack_tools.f	/^   70             CONTINUE$/;"	l	subroutine:DGEMV	file:
+70	lapack_tools.f	/^   70             CONTINUE$/;"	l	subroutine:DSYMV	file:
+70	lapack_tools.f	/^   70          CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+70	lapack_tools.f	/^   70          CONTINUE$/;"	l	subroutine:DLAGTS	file:
+70	lapack_tools.f	/^   70          CONTINUE$/;"	l	subroutine:DLARFB	file:
+70	lapack_tools.f	/^   70         CONTINUE$/;"	l	subroutine:DSYMM	file:
+70	lapack_tools.f	/^   70       CONTINUE$/;"	l	function:DLANSY	file:
+70	lapack_tools.f	/^   70       CONTINUE$/;"	l	subroutine:DLASRT	file:
+70	lapack_tools.f	/^   70       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+70	lapack_tools.f	/^   70       CONTINUE$/;"	l	subroutine:DTGEVC	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	function:DLANGE	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	function:DLANHS	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DGGBAK	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DGGBAL	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DLASCL	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+70	lapack_tools.f	/^   70    CONTINUE$/;"	l	subroutine:DSTERF	file:
+70	lapack_tools.f	/^   70 CONTINUE$/;"	l	function:ILAENV	file:
+70	lapack_tools.f	/^   70 CONTINUE$/;"	l	subroutine:DLASET	file:
+70	lapack_tools.f	/^   70 CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+80	lapack.f	/^   80             CONTINUE$/;"	l	subroutine:DGGEV	file:
+80	lapack_tools.f	/^   80                         CONTINUE$/;"	l	subroutine:DTRSM	file:
+80	lapack_tools.f	/^   80                 CONTINUE$/;"	l	subroutine:DSYMM	file:
+80	lapack_tools.f	/^   80                CONTINUE$/;"	l	subroutine:DTGEVC	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DGEMM	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DLARFB	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DSYR2K	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DSYRK	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DTRMM	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DTRMV	file:
+80	lapack_tools.f	/^   80             CONTINUE$/;"	l	subroutine:DTRSV	file:
+80	lapack_tools.f	/^   80          CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+80	lapack_tools.f	/^   80          CONTINUE$/;"	l	subroutine:DLASR	file:
+80	lapack_tools.f	/^   80          CONTINUE$/;"	l	subroutine:DSTEIN	file:
+80	lapack_tools.f	/^   80         CONTINUE$/;"	l	subroutine:DGEMV	file:
+80	lapack_tools.f	/^   80         CONTINUE$/;"	l	subroutine:DSYMV	file:
+80	lapack_tools.f	/^   80         CONTINUE$/;"	l	subroutine:DSYR2	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	function:DLANSY	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	subroutine:DLAGTS	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	subroutine:DLASCL	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	subroutine:DLASRT	file:
+80	lapack_tools.f	/^   80       CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+80	lapack_tools.f	/^   80    CONTINUE$/;"	l	function:DLANGE	file:
+80	lapack_tools.f	/^   80    CONTINUE$/;"	l	function:DLANHS	file:
+80	lapack_tools.f	/^   80    CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+80	lapack_tools.f	/^   80    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+80	lapack_tools.f	/^   80    CONTINUE$/;"	l	subroutine:DSTERF	file:
+80	lapack_tools.f	/^   80 CONTINUE$/;"	l	function:ILAENV	file:
+80	lapack_tools.f	/^   80 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+90	lapack.f	/^   90             CONTINUE$/;"	l	subroutine:DGGEV	file:
+90	lapack_tools.f	/^   90                     CONTINUE$/;"	l	subroutine:DTRMM	file:
+90	lapack_tools.f	/^   90                 CONTINUE$/;"	l	subroutine:DSYR2K	file:
+90	lapack_tools.f	/^   90                 CONTINUE$/;"	l	subroutine:DSYRK	file:
+90	lapack_tools.f	/^   90                 CONTINUE$/;"	l	subroutine:DTRMV	file:
+90	lapack_tools.f	/^   90                 CONTINUE$/;"	l	subroutine:DTRSM	file:
+90	lapack_tools.f	/^   90                 CONTINUE$/;"	l	subroutine:DTRSV	file:
+90	lapack_tools.f	/^   90                CONTINUE$/;"	l	subroutine:DLASR	file:
+90	lapack_tools.f	/^   90             CONTINUE$/;"	l	subroutine:DGEMV	file:
+90	lapack_tools.f	/^   90             CONTINUE$/;"	l	subroutine:DSTEBZ	file:
+90	lapack_tools.f	/^   90             CONTINUE$/;"	l	subroutine:DSYMM	file:
+90	lapack_tools.f	/^   90             CONTINUE$/;"	l	subroutine:DSYMV	file:
+90	lapack_tools.f	/^   90             CONTINUE$/;"	l	subroutine:DTGEVC	file:
+90	lapack_tools.f	/^   90          CONTINUE$/;"	l	function:DLANSY	file:
+90	lapack_tools.f	/^   90          CONTINUE$/;"	l	subroutine:DHGEQZ	file:
+90	lapack_tools.f	/^   90          CONTINUE$/;"	l	subroutine:DLAEBZ	file:
+90	lapack_tools.f	/^   90          CONTINUE$/;"	l	subroutine:DLARFB	file:
+90	lapack_tools.f	/^   90         CONTINUE$/;"	l	subroutine:DGEMM	file:
+90	lapack_tools.f	/^   90       CONTINUE$/;"	l	subroutine:DGGBAK	file:
+90	lapack_tools.f	/^   90       CONTINUE$/;"	l	subroutine:DLASRT	file:
+90	lapack_tools.f	/^   90       CONTINUE$/;"	l	subroutine:DSTEIN	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	function:DLANGE	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	function:DLANHS	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	subroutine:DLAGTS	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	subroutine:DLASCL	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	subroutine:DSTEQR	file:
+90	lapack_tools.f	/^   90    CONTINUE$/;"	l	subroutine:DSTERF	file:
+90	lapack_tools.f	/^   90 CONTINUE$/;"	l	function:ILAENV	file:
+90	lapack_tools.f	/^   90 CONTINUE$/;"	l	subroutine:DGGBAL	file:
+9999	lapack_tools.f	/^ 9999 FORMAT( ' ** On entry to ', A, ' parameter number ', I2, ' had ',$/;"	l	subroutine:XERBLA	file:
+DAXPY	lapack_tools.f	/^      SUBROUTINE DAXPY(/;"	s	module:lapack_tools
+DCOPY	lapack_tools.f	/^      SUBROUTINE DCOPY(/;"	s	module:lapack_tools
+DDOT	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DDOT(/;"	f	module:lapack_tools
+DGEMM	lapack_tools.f	/^      SUBROUTINE DGEMM(/;"	s	module:lapack_tools
+DGEMV	lapack_tools.f	/^      SUBROUTINE DGEMV(/;"	s	module:lapack_tools
+DGEQR2	lapack_tools.f	/^      SUBROUTINE DGEQR2(/;"	s	module:lapack_tools
+DGEQRF	lapack_tools.f	/^      SUBROUTINE DGEQRF(/;"	s	module:lapack_tools
+DGER	lapack_tools.f	/^      SUBROUTINE DGER(/;"	s	module:lapack_tools
+DGESV	lapack.f	/^      SUBROUTINE DGESV(/;"	s	module:lapack
+DGETRF	lapack.f	/^      SUBROUTINE DGETRF(/;"	s	module:lapack
+DGETRF2	lapack_tools.f	/^      RECURSIVE SUBROUTINE DGETRF2(/;"	s	module:lapack_tools
+DGETRI	lapack.f	/^      SUBROUTINE DGETRI(/;"	s	module:lapack
+DGETRS	lapack_tools.f	/^      SUBROUTINE DGETRS(/;"	s	module:lapack_tools
+DGGBAK	lapack_tools.f	/^      SUBROUTINE DGGBAK(/;"	s	module:lapack_tools
+DGGBAL	lapack_tools.f	/^      SUBROUTINE DGGBAL(/;"	s	module:lapack_tools
+DGGEV	lapack.f	/^      SUBROUTINE DGGEV(/;"	s	module:lapack
+DGGHRD	lapack_tools.f	/^      SUBROUTINE DGGHRD(/;"	s	module:lapack_tools
+DHGEQZ	lapack_tools.f	/^      SUBROUTINE DHGEQZ(/;"	s	module:lapack_tools
+DISNAN	lapack_tools.f	/^      LOGICAL FUNCTION DISNAN(/;"	f	module:lapack_tools
+DLABAD	lapack_tools.f	/^      SUBROUTINE DLABAD(/;"	s	module:lapack_tools
+DLACPY	lapack_tools.f	/^      SUBROUTINE DLACPY(/;"	s	module:lapack_tools
+DLADIV	lapack_tools.f	/^      SUBROUTINE DLADIV(/;"	s	module:lapack_tools
+DLADIV1	lapack_tools.f	/^      SUBROUTINE DLADIV1(/;"	s	module:lapack_tools
+DLADIV2	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLADIV2(/;"	f	module:lapack_tools
+DLAE2	lapack_tools.f	/^      SUBROUTINE DLAE2(/;"	s	module:lapack_tools
+DLAEBZ	lapack_tools.f	/^      SUBROUTINE DLAEBZ(/;"	s	module:lapack_tools
+DLAEV2	lapack_tools.f	/^      SUBROUTINE DLAEV2(/;"	s	module:lapack_tools
+DLAG2	lapack_tools.f	/^      SUBROUTINE DLAG2(/;"	s	module:lapack_tools
+DLAGTF	lapack_tools.f	/^      SUBROUTINE DLAGTF(/;"	s	module:lapack_tools
+DLAGTS	lapack_tools.f	/^      SUBROUTINE DLAGTS(/;"	s	module:lapack_tools
+DLAISNAN	lapack_tools.f	/^      LOGICAL FUNCTION DLAISNAN(/;"	f	module:lapack_tools
+DLALN2	lapack_tools.f	/^      SUBROUTINE DLALN2(/;"	s	module:lapack_tools
+DLAMC3	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLAMC3(/;"	f	module:lapack_tools
+DLAMCH	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLAMCH(/;"	f	module:lapack_tools
+DLANGE	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLANGE(/;"	f	module:lapack_tools
+DLANHS	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLANHS(/;"	f	module:lapack_tools
+DLANST	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLANST(/;"	f	module:lapack_tools
+DLANSY	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLANSY(/;"	f	module:lapack_tools
+DLAPY2	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLAPY2(/;"	f	module:lapack_tools
+DLAPY3	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DLAPY3(/;"	f	module:lapack_tools
+DLARF	lapack_tools.f	/^      SUBROUTINE DLARF(/;"	s	module:lapack_tools
+DLARFB	lapack_tools.f	/^      SUBROUTINE DLARFB(/;"	s	module:lapack_tools
+DLARFG	lapack_tools.f	/^      SUBROUTINE DLARFG(/;"	s	module:lapack_tools
+DLARFT	lapack_tools.f	/^      SUBROUTINE DLARFT(/;"	s	module:lapack_tools
+DLARNV	lapack_tools.f	/^      SUBROUTINE DLARNV(/;"	s	module:lapack_tools
+DLARTG	lapack_tools.f	/^      SUBROUTINE DLARTG(/;"	s	module:lapack_tools
+DLARUV	lapack_tools.f	/^      SUBROUTINE DLARUV(/;"	s	module:lapack_tools
+DLASCL	lapack_tools.f	/^      SUBROUTINE DLASCL(/;"	s	module:lapack_tools
+DLASET	lapack_tools.f	/^      SUBROUTINE DLASET(/;"	s	module:lapack_tools
+DLASR	lapack_tools.f	/^      SUBROUTINE DLASR(/;"	s	module:lapack_tools
+DLASRT	lapack_tools.f	/^      SUBROUTINE DLASRT(/;"	s	module:lapack_tools
+DLASSQ	lapack_tools.f	/^      SUBROUTINE DLASSQ(/;"	s	module:lapack_tools
+DLASV2	lapack_tools.f	/^      SUBROUTINE DLASV2(/;"	s	module:lapack_tools
+DLASWP	lapack_tools.f	/^      SUBROUTINE DLASWP(/;"	s	module:lapack_tools
+DLATRD	lapack_tools.f	/^      SUBROUTINE DLATRD(/;"	s	module:lapack_tools
+DNRM2	lapack_tools.f	/^      DOUBLE PRECISION FUNCTION DNRM2(/;"	f	module:lapack_tools
+DORG2L	lapack_tools.f	/^      SUBROUTINE DORG2L(/;"	s	module:lapack_tools
+DORG2R	lapack_tools.f	/^      SUBROUTINE DORG2R(/;"	s	module:lapack_tools
+DORGQL	lapack_tools.f	/^      SUBROUTINE DORGQL(/;"	s	module:lapack_tools
+DORGQR	lapack_tools.f	/^      SUBROUTINE DORGQR(/;"	s	module:lapack_tools
+DORGTR	lapack_tools.f	/^      SUBROUTINE DORGTR(/;"	s	module:lapack_tools
+DORM2L	lapack_tools.f	/^      SUBROUTINE DORM2L(/;"	s	module:lapack_tools
+DORM2R	lapack_tools.f	/^      SUBROUTINE DORM2R(/;"	s	module:lapack_tools
+DORMQL	lapack_tools.f	/^      SUBROUTINE DORMQL(/;"	s	module:lapack_tools
+DORMQR	lapack_tools.f	/^      SUBROUTINE DORMQR(/;"	s	module:lapack_tools
+DORMTR	lapack_tools.f	/^      SUBROUTINE DORMTR(/;"	s	module:lapack_tools
+DPOTF2	lapack_tools.f	/^      SUBROUTINE DPOTF2(/;"	s	module:lapack_tools
+DPOTRF	lapack_tools.f	/^      SUBROUTINE DPOTRF(/;"	s	module:lapack_tools
+DPOTRF2	lapack_tools.f	/^      RECURSIVE SUBROUTINE DPOTRF2(/;"	s	module:lapack_tools
+DROT	lapack_tools.f	/^      SUBROUTINE DROT(/;"	s	module:lapack_tools
+DSCAL	lapack_tools.f	/^      SUBROUTINE DSCAL(/;"	s	module:lapack_tools
+DSTEBZ	lapack_tools.f	/^      SUBROUTINE DSTEBZ(/;"	s	module:lapack_tools
+DSTEIN	lapack_tools.f	/^      SUBROUTINE DSTEIN(/;"	s	module:lapack_tools
+DSTEQR	lapack_tools.f	/^      SUBROUTINE DSTEQR(/;"	s	module:lapack_tools
+DSTERF	lapack_tools.f	/^      SUBROUTINE DSTERF(/;"	s	module:lapack_tools
+DSWAP	lapack_tools.f	/^      SUBROUTINE DSWAP(/;"	s	module:lapack_tools
+DSYEV	lapack_tools.f	/^      SUBROUTINE DSYEV(/;"	s	module:lapack_tools
+DSYEVX	lapack_tools.f	/^      SUBROUTINE DSYEVX(/;"	s	module:lapack_tools
+DSYGS2	lapack_tools.f	/^      SUBROUTINE DSYGS2(/;"	s	module:lapack_tools
+DSYGST	lapack_tools.f	/^      SUBROUTINE DSYGST(/;"	s	module:lapack_tools
+DSYGV	lapack.f	/^      SUBROUTINE DSYGV(/;"	s	module:lapack
+DSYGVX	lapack.f	/^      SUBROUTINE DSYGVX(/;"	s	module:lapack
+DSYMM	lapack_tools.f	/^      SUBROUTINE DSYMM(/;"	s	module:lapack_tools
+DSYMV	lapack_tools.f	/^      SUBROUTINE DSYMV(/;"	s	module:lapack_tools
+DSYR2	lapack_tools.f	/^      SUBROUTINE DSYR2(/;"	s	module:lapack_tools
+DSYR2K	lapack_tools.f	/^      SUBROUTINE DSYR2K(/;"	s	module:lapack_tools
+DSYRK	lapack_tools.f	/^      SUBROUTINE DSYRK(/;"	s	module:lapack_tools
+DSYTD2	lapack_tools.f	/^      SUBROUTINE DSYTD2(/;"	s	module:lapack_tools
+DSYTRD	lapack_tools.f	/^      SUBROUTINE DSYTRD(/;"	s	module:lapack_tools
+DTGEVC	lapack_tools.f	/^      SUBROUTINE DTGEVC(/;"	s	module:lapack_tools
+DTRMM	lapack_tools.f	/^      SUBROUTINE DTRMM(/;"	s	module:lapack_tools
+DTRMV	lapack_tools.f	/^      SUBROUTINE DTRMV(/;"	s	module:lapack_tools
+DTRSM	lapack_tools.f	/^      SUBROUTINE DTRSM(/;"	s	module:lapack_tools
+DTRSV	lapack_tools.f	/^      SUBROUTINE DTRSV(/;"	s	module:lapack_tools
+DTRTI2	lapack_tools.f	/^      SUBROUTINE DTRTI2(/;"	s	module:lapack_tools
+DTRTRI	lapack_tools.f	/^      SUBROUTINE DTRTRI(/;"	s	module:lapack_tools
+IDAMAX	lapack_tools.f	/^      INTEGER FUNCTION IDAMAX(/;"	f	module:lapack_tools
+IEEECK	lapack_tools.f	/^      INTEGER          FUNCTION IEEECK(/;"	f	module:lapack_tools
+ILADLC	lapack_tools.f	/^      INTEGER FUNCTION ILADLC(/;"	f	module:lapack_tools
+ILADLR	lapack_tools.f	/^      INTEGER FUNCTION ILADLR(/;"	f	module:lapack_tools
+ILAENV	lapack_tools.f	/^      INTEGER FUNCTION ILAENV(/;"	f	module:lapack_tools
+IPARAM2STAGE	lapack_tools.f	/^      INTEGER FUNCTION IPARAM2STAGE(/;"	f	module:lapack_tools
+IPARMQ	lapack_tools.f	/^      INTEGER FUNCTION IPARMQ(/;"	f	module:lapack_tools
+KM_matrix	K_M_matrix.f90	/^    subroutine KM_matrix /;"	s	module:K_M_matrix
+K_M_matrix	K_M_matrix.f90	/^module K_M_matrix$/;"	m
+K_M_matrix.f90	K_M_matrix.f90	1;"	F
+LSAME	lapack_tools.f	/^      LOGICAL FUNCTION LSAME(/;"	f	module:lapack_tools
+XERBLA	lapack_tools.f	/^      SUBROUTINE XERBLA(/;"	s	module:lapack_tools
+lapack	lapack.f	/^      module lapack$/;"	m
+lapack.f	lapack.f	1;"	F
+lapack_tools	lapack_tools.f	/^      module lapack_tools$/;"	m
+lapack_tools.f	lapack_tools.f	1;"	F
+matmu	K_M_matrix.f90	/^subroutine matmu /;"	s	module:K_M_matrix
