@@ -4,21 +4,23 @@ use lapack_parcer
     implicit none
 
 integer :: ii, jj, n, k, nb_ele, nb_nodes, ngdl_ele, ngdl_global, ngdl_node, status, n_modos
-integer, allocatable, dimension (:,:) :: mat_conect, cc, fa
-double precision :: lengBEAM, lengELE, I
+integer, allocatable, dimension (:,:) :: mat_conect, cc, fa, ident
+double precision :: lengBEAM, lengELE, I, r
 double precision, dimension(1,5) :: prop
-double precision, allocatable, dimension (:,:) ::K_global, M_global, eigvet, K_ll, M_ll
-double precision, allocatable, dimension (:) :: eigval, freqs, FN
+double precision, allocatable, dimension (:,:) ::K_global, M_global, eigvet, K_ll, M_ll, K_ll_mat
+double precision, allocatable, dimension (:) :: eigval, freqs, FN, K_ll_diag, freq
 integer, allocatable, dimension (:) :: gdl_livres
-double precision :: pi=3.14159
+double precision :: pi=3.14159265359
 
 
-!prop = [E I Rho ni A]
+!prop = [E I Rho ni A(m^2)]
 
-prop(1,:) = (/2.10*10**11, 4.166/10**9, 7.8*10**3, 0.29, 0.05/)
+
+prop(1,:) = (/2.10*10**11, 4.166/10**9, 7.8*10**3, 0.29, 0.0005/)
+
 lengBEAM = 2.0
 !DEFINA O NO. DE ELEMENTOS
-nb_ele = 5
+nb_ele = 10
 nb_nodes = nb_ele+1
 ngdl_node = 6
 ngdl_ele = ngdl_node*2
@@ -32,17 +34,12 @@ do ii = 1,ngdl_node
     cc(ii,2) = 0.0d0
 enddo
 
-
 !aplicação das forças
 allocate (fa(ngdl_global-6,2))
 do ii = ngdl_node+1,ngdl_global
     fa(ii-6,1) = ii
     fa(ii-6,2) = 0.0d0
 enddo
-
-!Aplicando duas forças de 30 N no extremo livre da viga nas direções X e Z
-fa(ngdl_global-11,2) = -30
-fa(ngdl_global-10,2) = -30
 
 !Gerando a matriz conectividade
 allocate (mat_conect(nb_ele, ngdl_ele), STAT = status)
@@ -59,28 +56,42 @@ enddo
 
 allocate (K_global(ngdl_global,ngdl_global), STAT = status)
 allocate (M_global(ngdl_global,ngdl_global), STAT = status)
+
 K_global = 0.0d0
+
 call KM_matrix (prop,mat_conect,lengELE,nb_ele,K_global,M_global)
 
 print*, '-------------------------------------'
-
 
 n = ngdl_global-6
 allocate(gdl_livres(n), STAT = status)
 gdl_livres = fa(:,1)
 
-
-allocate (eigval(n), eigvet(n,n), freqs(n), STAT = status)
+allocate (eigval(n), eigvet(n,n), freqs(10), freq(n), STAT = status)
 allocate (K_ll(n,n), M_ll(n,n), STAT = status)
-K_ll = K_global(gdl_livres,gdl_livres)
-M_ll = M_global(gdl_livres,gdl_livres)
+
+K_ll = K_global(gdl_livres(1):gdl_livres(n),gdl_livres(1):gdl_livres(n))
+M_ll = M_global(gdl_livres(1):gdl_livres(n),gdl_livres(1):gdl_livres(n))
 
 call lapack_eig (n,K_ll,M_ll,EigVal,EigVet)
 
-print*, '-----------------------'
+OPEN (UNIT=11, FILE='K_ll.dat', STATUS='replace')
+OPEN (UNIT=10, FILE='M_ll.dat', STATUS='replace')
+do ii=1,n
+    write(11,*) K_ll(ii,:)
+    write(10,*) M_ll(ii,:)
+end do
+
 print*, 'As frequencias naturais sao (Hz): '
-freqs = sqrt(abs(eigval))*(pi*2)  
+freq = sqrt(abs(eigval))/2.0d0/pi
+
+print*,'------------'
+
+
+do ii = 1, 10
+    freqs(ii) = minval(freq)
+    freq(minloc(freq)) = 999999.0d0
+end do
 print*, freqs
-print*, '-----------------------'
 
 end program
