@@ -7,7 +7,7 @@ integer :: ii, jj, n, k, nb_ele, nb_nodes, ngdl_ele, ngdl_global, ngdl_node, sta
 integer, allocatable, dimension (:,:) :: mat_conect, cc, fa, ident
 double precision :: lengBEAM, lengELE, I, r
 double precision, dimension(1,5) :: prop
-double precision, allocatable, dimension (:,:) ::K_global, M_global, eigvet, K_ll, M_ll, K_ll_mat
+double precision, allocatable, dimension (:,:) ::K_global, M_global, eigvet, K_ll, M_ll, K_ll_mat, modos
 double precision, allocatable, dimension (:) :: eigval, freqs, FN, K_ll_diag, freq
 integer, allocatable, dimension (:) :: gdl_livres
 double precision :: pi=3.14159265359
@@ -20,7 +20,7 @@ prop(1,:) = (/2.10*10**11, 4.166/10**9, 7.8*10**3, 0.29, 0.0005/)
 
 lengBEAM = 2.0
 !DEFINA O NO. DE ELEMENTOS
-nb_ele = 10
+nb_ele = 5
 nb_nodes = nb_ele+1
 ngdl_node = 6
 ngdl_ele = ngdl_node*2
@@ -83,8 +83,8 @@ do ii=1,n
 end do
 
 print*, 'As frequencias naturais sao (Hz): '
-freq = sqrt(abs(eigval))/2.0d0/pi
-
+freq = sqrt(abs(eigval))/(2.0d0*pi)
+n_modos = 5
 print*,'------------'
 
 
@@ -92,6 +92,19 @@ do ii = 1, 10
     freqs(ii) = minval(freq)
     freq(minloc(freq)) = 999999.0d0
 end do
+
 print*, freqs
+
+allocate(modos(ngdl_global-6,n_modos))
+modos = eigvet(:,1:n_modos)
+
+OPEN (UNIT=12, FILE='modos.dat', STATUS='replace')
+OPEN (UNIT=13, FILE='modos_exp.dat', STATUS='replace')
+
+do ii=1,n
+    write(12,*) modos(ii,:)
+    write(13,*) eigvet(ii,:)
+
+end do
 
 end program
